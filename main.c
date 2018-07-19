@@ -37,9 +37,6 @@ int main ( void ){
       text[count] += 32;
     }
 
-
-
-
     if ( text[count] == EOF ){
       printf("Nespravny vstup.\n");
       free(text);
@@ -47,8 +44,6 @@ int main ( void ){
       free(lineMem);
       return 0;
     }
-
-
 
     if ( text[count] == '\n' ){
       ++inLine;
@@ -62,7 +57,6 @@ int main ( void ){
     if ( inEnd == 2 ){
       break;
     }
-
 
     //* deletes extra non-characters (2 or more), leaves new_lines (for line count)
     if ( isChar(text[count]) == 0
@@ -98,8 +92,6 @@ int main ( void ){
       searched_string[count2] += 32;
     }
 
-
-
     if ( searched_string[count2] == EOF ){
       free(text);
       free(searched_string);
@@ -123,7 +115,6 @@ int main ( void ){
     if ( isChar(searched_string[count2]) == 0 && searched_string[count2] != '\n' )
       searched_string[count2] = ' ';
 
-
     if ( searched_string[count2 - 1] == '\n' ){
 
       for ( int i = 0; i < count - 2; ++i ){
@@ -144,9 +135,7 @@ int main ( void ){
             if ( found > 1 ){
               printf(", ");
             }
-
             printf("%d", lineMem[i+1]);
-
           }
           err = 0;
         }
