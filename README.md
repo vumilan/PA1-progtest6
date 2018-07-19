@@ -14,6 +14,7 @@ Po zadání textu jsou zadávané jednotlivé dotazy. Jeden dotaz je zadaný na 
 Pokud je zadaný dotaz například:
 
 Lorem ipsum
+
 Příklady, kde je hledaný text nalezen:
 
 zakladni lorem ipsum verze
