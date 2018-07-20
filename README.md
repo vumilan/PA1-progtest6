@@ -57,7 +57,7 @@ Program je testován v omezeném prostředí. Je omezena doba běhu a dostupná 
 
 ### Ukázka práce programu:
 
-
+```
 Text:
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  
 Mauris dictum facilisis augue. Etiam neque. Morbi scelerisque id
@@ -87,10 +87,13 @@ Nenalezeno
 Neplatny dotaz
 lorem ipsum
 Nalezeno: 1, 4
+```
+```
 Text:
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  
 Mauris dictum facilisis augue. Etiam neque. Morbi scelerisque id
 luctus id velit. Praesent id justo in neque elementum ultrices.
 Nespravny vstup.
-Nápověda:
+```
+### Nápověda:
 Ukázkové běhy zachycují očekávané výpisy Vašeho programu (tučné písmo) a vstupy zadané uživatelem (základní písmo). Zvýraznění tučným písmem je použité pouze zde na stránce zadání, aby byl výpis lépe čitelný. Váš program má za úkol pouze zobrazit text bez zvýrazňování (bez HTML markupu).
